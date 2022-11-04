@@ -56,7 +56,7 @@ def parse_home():
 			for link in links_to_notice:
 				parse_notice(link, today)
 		else:
-			raise ValueError(f'Error: {response.status_code'})
+			raise ValueError(f'Error: {response.status_code}')
 	except ValueError as ve:
 		print(ve)
 
